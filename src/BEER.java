@@ -43,8 +43,8 @@ public class Beer {
     }
 
     public void setCaseSize(int newCaseSize) {
-        if(newCaseSize >= 6) {
-        caseSize = newCaseSize;
+        if (newCaseSize >= 6) {
+            caseSize = newCaseSize;
 
             caseSize = newCaseSize;
         }

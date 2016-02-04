@@ -7,16 +7,16 @@ public class Person {
     public boolean isAlive = true;
     public String address;
 
-    public Person(String name, int age){
+    public Person(String name, int age) {
         this(name, age, true);
 
-        
+
     }
 
-    public Person(String name, int age, boolean isAlive){
+    public Person(String name, int age, boolean isAlive) {
         this.name = name;
         this.age = age;
-        this.isAlive =  isAlive;
+        this.isAlive = isAlive;
 
     }
 
@@ -30,25 +30,29 @@ public class Person {
         }
 
     }
+
     public int getAge() {
         return age;
 
     }
-    public void setAge(int newAge){
-        if (newAge >= 0 ) {
+
+    public void setAge(int newAge) {
+        if (newAge >= 0) {
             age = newAge;
         }
     }
+
     public boolean isAlive() {
         return isAlive;
 
     }
+
     public void setAlive(boolean newIsAlive) {
         isAlive = newIsAlive;
 
     }
 
-    public boolean isValidName(String name){
+    public static boolean isValidName(String name) {
         return name.contains(" ");
     }
 
