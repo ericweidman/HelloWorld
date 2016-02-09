@@ -7,6 +7,10 @@ public class Person {
     public boolean isAlive = true;
     public String address;
 
+    public Person(){
+
+    }
+
     public Person(String name, int age) {
         this(name, age, true);
 
@@ -56,4 +60,13 @@ public class Person {
         return name.contains(" ");
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", isAlive=" + isAlive +
+                ", address='" + address + '\'' +
+                '}';
+    }
 }
