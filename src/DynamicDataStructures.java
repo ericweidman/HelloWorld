@@ -21,7 +21,6 @@ public class DynamicDataStructures {
 
         //or (int i = 0; i < people.size(); i++){
         //System.out.println(people.get(i)).getName());
-
         HashMap<String, Person> peopleMap = new HashMap();
         peopleMap.put("Alice", alice);
         peopleMap.put("Bob", bob);
