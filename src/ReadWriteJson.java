@@ -21,7 +21,7 @@ public class ReadWriteJson {
         fw.write(json);
         fw.close();
 
-        //read json
+        //read json jss
         Scanner s = new Scanner(f);
         s.useDelimiter("\\Z");
         String contents = s.next();
