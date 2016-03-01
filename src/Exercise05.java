@@ -30,7 +30,6 @@ public class Exercise05 {
                 iterator.remove();
             }
         }
-
         System.out.println(names);
     }
 
